@@ -9,5 +9,5 @@ Set-Location $ghPagesPath
 git checkout -b master
 git add .
 git commit -m "Publish"
-git push -u origin master
+git push -u origin master --force
 Set-Location $sourceLocation
